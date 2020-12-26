@@ -8,6 +8,7 @@ import acheivements from "../views/acheivements.vue";
 import wallet from "../views/wallet.vue";
 import notification from "../views/notification.vue";
 import adddorti from "../views/addDorti.vue";
+import settings from "../views/settings.vue"
 
 Vue.use(VueRouter);
 
@@ -54,6 +55,11 @@ const routes = [{
         path: "/notification",
         name: "notification",
         component: notification,
+    },
+    {
+        path: "/settings",
+        name: "settings",
+        component: settings,
     },
     {
         path: "/about",
