@@ -4,6 +4,10 @@ import Home from "../views/Home.vue";
 import login from "../views/login.vue";
 import signup from "../views/signup.vue";
 import dashboard from "../views/dashboard.vue";
+import acheivements from "../views/acheivements.vue";
+import wallet from "../views/wallet.vue";
+import notification from "../views/notification.vue";
+import adddorti from "../views/addDorti.vue";
 
 Vue.use(VueRouter);
 
@@ -27,6 +31,29 @@ const routes = [{
         path: "/dashboard",
         name: "dashboard",
         component: dashboard,
+    },
+
+    {
+        path: "/acheivements",
+        name: "acheivements",
+        component: acheivements,
+    },
+
+    {
+        path: "/wallet",
+        name: "wallet",
+        component: wallet,
+    },
+    {
+        path: "/adddorti",
+        name: "adddorti",
+        component: adddorti,
+    },
+
+    {
+        path: "/notification",
+        name: "notification",
+        component: notification,
     },
     {
         path: "/about",
