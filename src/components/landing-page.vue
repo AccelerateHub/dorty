@@ -3,10 +3,10 @@
     <navBar />
     <div class="row mt-2">
       <div class="col-lg-6 text-left pl-5 mt-5">
-        <div class="pl-5 m-5">
+        <div class="pl-lg-5 m-lg-5">
           <div class="pt-5">
             <h1>
-              Post <span style="color: rgba(78, 54, 146, 1)">garbage,</span><br />
+              Post <span style="color:  rgba(11, 17, 197, 1)">garbage,</span><br />
               keep your community <br />
               clean and get <br />
               rewarded
@@ -19,21 +19,21 @@
       </div>
     </div>
     <div class="row mt-5 pt-5">
-      <div class="col-12 text-left pl-5 mb-4 mt-5">
-        <h1 class="pl-5 ml-5">How it works</h1>
+      <div class="col-12 text-left pl-5 mb-lg-4 mt-5">
+        <h1 class="pl-5 ml-lg-5">How it works</h1>
       </div>
       <div class="col-12">
         <img id="img2" src="../assets/004.jpg" alt="" />
-        <div id="overlay" class="col-7 p-5 text-left">
-          <div class="ml-5 pl-5 mr-5 pr-5">
+        <div id="overlay" class="col-lg-7 col-sm-10 p-5 text-left">
+          <div class="ml-lg-5 pl-lg-5 mr-lg-5 pr-lg-5">
             <div class="">
               <span style="color: rgba(78, 54, 146, 1)">Dorti</span>
             </div>
             <div class="mb-4">
               <h3>How it works</h3>
             </div>
-            <div class="mr-3 pr-5">
-              <p class="mr-5 pr-5">
+            <div class="mr-lg-3 pr-5">
+              <p class="mr-lg-5 pr-lg-5">
                 take a snapshot of a dirt or garbage close to you, book it and send to
                 Dorti app, garbage would be assigned to your location and would pick it
                 up, once its picked up, you get rewarded with units, at the end of a
@@ -55,8 +55,8 @@
           </div>
         </div>
       </div>
-      <div class="row mx-auto pl-5">
-        <div class="col-lg-2 ml-3">
+      <div class="row mx-auto pl-lg-5">
+        <div class="col-lg-2 ml-lg-3">
           <div>
             <img id="img3" src="../assets/002.jpg" alt="" />
             <div id="top" class="text-left text-white ml-3">
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-8 col-sm-12 mx-auto">
+        <div class="col-lg-8 col-sm-12 mx-lg-auto">
           <div id="img6">
             <img src="../assets/005.png" alt="" />
             <div id="top" class="text-left text-white ml-3">
@@ -75,8 +75,8 @@
           </div>
         </div>
       </div>
-      <div class="row mx-auto mt-3 pl-5">
-        <div class="col-lg-7 ml-3">
+      <div class="row mx-auto mt-lg-3 pl-lg-5">
+        <div class="col-lg-7 ml-lg-3">
           <div>
             <img id="img4" src="../assets/006.jpg" alt="" />
             <div id="top" class="text-left text-white ml-3">
@@ -99,8 +99,8 @@
 
     <footer>
       <div class="row p-4 mt-5">
-        <div class="col-lg-4 pr-5 ml-5 pl-5">
-          <div class="text-left p-3 mr-3 ml-5">
+        <div class="col-lg-4 pr-5 ml-lg-5 pl-lg-5">
+          <div class="text-left mr-lg-3 ml-lg-5">
             <h6>Dorti</h6>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum mollitia iste
@@ -108,7 +108,7 @@
             </p>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-5">
           <div class="text-left">
             <p>About Dorti</p>
             <p>Sign Up</p>
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-sm-5">
           <div class="text-left">
             <p>Contact Us</p>
             <p>Terms of Service</p>
@@ -139,7 +139,7 @@
           />
           <br />
           <div class="pt-4">
-          <span style="font-size:12px;">Copyrights @2020 Dorti</span>
+            <span style="font-size: 12px">Copyrights @2020 Dorti</span>
           </div>
         </div>
       </div>
@@ -148,11 +148,11 @@
 </template>
 
 <script>
-import navBar from './navBar'
+import navBar from "./navBar";
 export default {
-   components: {
-    navBar
-  }
+  components: {
+    navBar,
+  },
 };
 </script>
 
@@ -210,8 +210,7 @@ h3 {
   position: absolute;
   top: 230px;
 }
-#top
-span {
+#top span {
   font-size: 12px;
 }
 #insight {
@@ -234,5 +233,29 @@ input {
   width: 105px;
   margin-left: -30px;
   padding: 10px;
+}
+@media (max-width: 500px) {
+  #insight {
+    margin-top: 90%;
+  }
+  #btn1 {
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+  
+  #img1{
+    width: 100%;
+  }
+  #img3 {
+    width: 100%;
+  }
+  #img6 {
+    margin-left: 0px;
+    width: 96%;
+  }
+  #img5 {
+    width: 100%;
+  }
 }
 </style>

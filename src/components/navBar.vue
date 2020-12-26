@@ -1,44 +1,51 @@
 <template>
   <div>
-    <div>
-      <b-navbar toggleable="lg" variant="light">
-        <b-navbar-brand href="#" class="ml-5 pl-5">Dorti</b-navbar-brand>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="ml-lg-5 pl-lg-5 mr-lg-5 pr-lg-5">
+        <img src="../assets/logo.svg" alt="" />
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-lg-5 pl-lg-5 pt-lg-4 text-center">
+          <div class="p-3 ml-lg-5">
+            <router-link to="/">
+              <p>Dorti</p>
+            </router-link>
+          </div>
+          <div class="p-3">
+            <p>Curretnt Trending</p>
+          </div>
+          <div class="p-3">
+            <p>Achievements</p>
+          </div>
 
-        <b-collapse id="nav-collapse" is-nav>
-          <b-navbar-nav class="ml-5 pl-5 pt-3 text-center" center>
-            <div class="d-flex ml-5 pl-5">
-              <div class="p-3 ml-5 pl-5">
-                <router-link to="/">
-                  <p>Dorti</p>
-                </router-link>
-              </div>
-              <div class="p-3">
-                <p>Curretnt Trending</p>
-              </div>
-              <div class="p-3">
-                <p>Achievements</p>
-              </div>
+          <div right class="d-flex ml-lg-5 pl-5">
+            <div class="p-3 ml-5 pl-5">
+              <router-link to="/signup">
+                <p>Sign In</p>
+              </router-link>
             </div>
-          </b-navbar-nav>
+            <div class=" ml-3">
+              <router-link to="/login">
+                <b-button id="btn">Login</b-button>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
 
-          <!-- Right aligned nav items -->
-          <b-navbar-nav class="ml-auto">
-            <div right class="d-flex">
-              <div class="p-3 mt-2">
-                <router-link to="/signup">
-                  <p>Sign In</p>
-                </router-link>
-              </div>
-              <div class="p-3">
-                <router-link to="/login">
-                  <b-button id="btn">Login</b-button>
-                </router-link>
-              </div>
-            </div>
-          </b-navbar-nav>
-        </b-collapse>
-      </b-navbar>
-    </div>
+    
   </div>
 </template>
 <script>
@@ -58,7 +65,7 @@ a {
   text-decoration: none;
   color: #2c3e50;
 }
-a:hover{
+a:hover {
   text-decoration: none;
   color: #2c3e50;
 }
