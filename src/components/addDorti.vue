@@ -66,13 +66,19 @@
               <b-card-text> Upload a picture</b-card-text>
             </b-card>
           </div>
-          <div class="py-2">
-            <div class="user d-flex p-3">
-              <div class="ml-3 mt-1">
-                <h5>Add Location</h5>
-              </div>
-            </div>
-          </div>
+
+          <hr>
+          <h5>Select Location</h5>
+          <hr>
+
+          <GmapMap
+              :center="{lat:10, lng:10}"
+              :zoom="8"
+              map-type-id="hybrid"
+              style="width:420px; height:360px;"
+          >
+          </GmapMap>
+
           <div class="py-2">
             <div class="user d-flex p-3">
               <div class="ml-3 mt-1">

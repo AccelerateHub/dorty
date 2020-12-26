@@ -57,8 +57,13 @@
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <div class="col-lg-6 pl-4">
         <b-card class="my-5">
+=======
+      <div class="col-6">
+        <b-card class="my-5" style="border-radius:8px;">
+>>>>>>> 7fbb9523c5a9738c1a04f7f94ee5bd62b7ed1a42
           <div class="d-flex justify-content-between">
             <div class="ml-lg-5">
               <img src="../assets/logo.svg" alt="" />
@@ -66,8 +71,13 @@
             <b-icon color="rgba(11, 17, 197, 1)" class="h4" icon="wallet"></b-icon>
           </div>
           <b-card-text class="text-left">
+<<<<<<< HEAD
             <div class="current ml-lg-5 mt-5">
               <h1>20 000</h1>
+=======
+            <div class="current ml-5 mt-5">
+              <h1>&#8358;20,000</h1>
+>>>>>>> 7fbb9523c5a9738c1a04f7f94ee5bd62b7ed1a42
               <p>Current Balance</p>
             </div>
             <div class="text-right">
@@ -76,14 +86,24 @@
           </b-card-text>
         </b-card>
         <div class="text-left d-flex">
-          <div class="mr-5">
-            <h6>Transfer To Bank</h6>
-            <span id="small">Paypal</span>
+          <div class="py-2 mr-3">
+            <div class="user d-flex px-5 py-3" style="background: #0b11c5; color: white;">
+              <b-icon class="h2" icon="building"></b-icon>
+              <div class="ml-3 mt-1">
+                <h6>Transfer To Bank</h6>
+              </div>
+            </div>
           </div>
-          <div class="ml-5">
-            <h6>Transfer To a Dorti User</h6>
-            <span id="small">Paypal</span>
+
+          <div class="py-2">
+            <div class="user d-flex px-5 py-3" style="background: #0b11c5; color: white;">
+              <b-icon class="h2" icon="person"></b-icon>
+              <div class="ml-3 mt-1">
+                <h6>Transfer To A Dorti User</h6>
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
       <div class="col-lg-3">
@@ -103,26 +123,26 @@
 
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">20 Niara</h6>
+              <h6 class="pl-3">&#8358;20 Niara</h6>
               <p id="small">Earned</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">2000</h6>
+              <h6 class="pl-3">&#8358;2,000</h6>
               <p id="small">Earned</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">4000</h6>
+              <h6 class="pl-3">&#8358;4,000</h6>
               <p id="small">Transfered</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">340 </h6>
-              <p id="small">Earn From Referal</p>
+              <h6 class="pl-3">&#8358;4,000</h6>
+              <p id="small">Earned from referral</p>
             </div>
           </div>
         </div>

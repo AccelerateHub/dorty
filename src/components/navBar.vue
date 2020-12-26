@@ -29,11 +29,28 @@
             <p>Achievements</p>
           </div>
 
+<<<<<<< HEAD
           <div right class="d-flex ml-lg-5 pl-5">
             <div class="p-3 ml-5 pl-5">
               <router-link to="/signup">
                 <p>Sign In</p>
               </router-link>
+=======
+        <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-nav class="ml-5 pl-5 pt-3 text-center" center>
+            <div class="d-flex ml-5 pl-5">
+              <div class="p-3 ml-5 pl-5">
+                <router-link to="/">
+                  <p>Dorti</p>
+                </router-link>
+              </div>
+              <div class="p-3">
+                <p>Current Trending</p>
+              </div>
+              <div class="p-3">
+                <p>Achievements</p>
+              </div>
+>>>>>>> 7fbb9523c5a9738c1a04f7f94ee5bd62b7ed1a42
             </div>
             <div class=" ml-3">
               <router-link to="/login">
