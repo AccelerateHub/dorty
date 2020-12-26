@@ -13,7 +13,7 @@
                 </router-link>
               </div>
               <div class="p-3">
-                <p>Curretnt Trending</p>
+                <p>Current Trending</p>
               </div>
               <div class="p-3">
                 <p>Achievements</p>
