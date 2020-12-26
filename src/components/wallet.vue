@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="col-6">
-        <b-card class="my-5">
+        <b-card class="my-5" style="border-radius:8px;">
           <div class="d-flex justify-content-between">
             <div class="ml-5">
               <img src="../assets/logo.svg" alt="" />
@@ -67,7 +67,7 @@
           </div>
           <b-card-text class="text-left">
             <div class="current ml-5 mt-5">
-              <h1>20 000</h1>
+              <h1>&#8358;20,000</h1>
               <p>Current Balance</p>
             </div>
             <div class="text-right">
@@ -103,26 +103,26 @@
 
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">20 Niara</h6>
+              <h6 class="pl-3">&#8358;20 Niara</h6>
               <p id="small">Earned</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">2000</h6>
+              <h6 class="pl-3">&#8358;2,000</h6>
               <p id="small">Earned</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">4000</h6>
+              <h6 class="pl-3">&#8358;4,000</h6>
               <p id="small">Transfered</p>
             </div>
           </div>
           <div class="user d-flex p-3 my-3">
             <div>
-              <h6 class="pl-3">340 </h6>
-              <p id="small">Earn From Referal</p>
+              <h6 class="pl-3">&#8358;4,000</h6>
+              <p id="small">Earned from referral</p>
             </div>
           </div>
         </div>
