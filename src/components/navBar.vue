@@ -1,9 +1,7 @@
 <template>
   <div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="ml-lg-5 pl-lg-5 mr-lg-5 pr-lg-5">
-        <img src="../assets/logo.svg" alt="" />
-      </div>
+      <img src="../assets/logo.svg" alt="" />
       <button
         class="navbar-toggler"
         type="button"
@@ -16,30 +14,15 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-lg-5 pl-lg-5 pt-lg-4 text-center">
-          <div class="p-3 ml-lg-5">
-            <router-link to="/">
-              <p>Dorti</p>
-            </router-link>
-          </div>
-          <div class="p-3">
-            <p>Curretnt Trending</p>
-          </div>
-          <div class="p-3">
-            <p>Achievements</p>
-          </div>
-          <div right class="d-flex ml-lg-5 pl-5">
-            <div class="p-3 ml-5 pl-5">
-              <router-link to="/signup">
-                <p>Sign In</p>
-              </router-link>
-            </div>
-          </div>
+        <div class="navbar-nav">
+          <a class="nav-link " href="#"
+            >Dorti</a
+          >
+          <a class="nav-link" href="#">Current Trends</a>
+          <a class="nav-link" href="#">Achievements</a>
         </div>
       </div>
     </nav>
-
-    
   </div>
 </template>
 <script>
