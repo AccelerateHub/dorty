@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-       <div class="col-3 py-3">
+       <div class="col-lg-3 py-3">
         <div class="my-3">
           <img src="../assets/user.png" alt="" />
           <h6>Paul Okechukwu</h6>
@@ -57,16 +57,16 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6 pl-4">
         <b-card class="my-5">
           <div class="d-flex justify-content-between">
-            <div class="ml-5">
+            <div class="ml-lg-5">
               <img src="../assets/logo.svg" alt="" />
             </div>
             <b-icon color="rgba(11, 17, 197, 1)" class="h4" icon="wallet"></b-icon>
           </div>
           <b-card-text class="text-left">
-            <div class="current ml-5 mt-5">
+            <div class="current ml-lg-5 mt-5">
               <h1>20 000</h1>
               <p>Current Balance</p>
             </div>
@@ -86,7 +86,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-lg-3">
         <div class="d-flex m-3">
           <div class="m-3">
             <button type="button">Post</button>

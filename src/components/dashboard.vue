@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-3 py-3">
+      <div class="col-lg-3 py-3">
         <div>
           <div class="my-3">
             <img src="../assets/user.png" alt="" />
@@ -59,7 +59,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6">
         <div class="m-4">
           <div class="user d-flex my-3">
             <div class="">
@@ -148,7 +148,7 @@
           </div>
         </div>
       </div>
-      <div class="col-3">
+      <div class="col-lg-3">
         <div>
           
         <div class="d-flex m-3">
@@ -302,5 +302,11 @@ a:hover {
 #sidebar {
   position: fixed;
   z-index: 1000;
+}
+@media (max-width: 500px) {
+  #btn{
+    margin-left: 0px;
+    display: none;
+  }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-       <div class="col-3 py-3">
+       <div class="col-lg-3 py-3">
         <div class="my-3">
           <img src="../assets/user.png" alt="" />
           <h6>Paul Okechukwu</h6>
@@ -57,11 +57,11 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6">
         <div class="m-4">
           <div class="user d-flex">
             <div class="">
-              <div class="d-flex mx-5 p-4">
+              <div class="d-flex mx-lg-5 p-4">
                 <img src="../assets/medal.svg" alt="" />
                 <div class="ml-5 pl-5 pt-2">
                   <h5>Level 5</h5>
@@ -73,7 +73,7 @@
         <div class="m-4">
           <div class="user d-flex">
             <div class="">
-              <div class="d-flex mx-5 p-4">
+              <div class="d-flex mx-lg-5 p-4">
                 <img src="../assets/medal.svg" alt="" />
                 <div class="ml-5 pl-5 pt-2">
                   <h5>Made Top 10 This Week</h5>
@@ -85,7 +85,7 @@
         <div class="m-4">
           <div class="user d-flex">
             <div class="">
-              <div class="d-flex mx-5 p-4">
+              <div class="d-flex mx-lg-5 p-4">
                 <img src="../assets/medal.svg" alt="" />
                 <div class="ml-5 pl-5 pt-2">
                   <h5>Made Monthly Top 10</h5>
@@ -97,7 +97,7 @@
         <div class="m-4">
           <div class="user d-flex">
             <div class="">
-              <div class="d-flex mx-5 p-4">
+              <div class="d-flex mx-lg-5 p-4">
                 <img src="../assets/medal.svg" alt="" />
                 <div class="ml-5 pl-5 pt-2">
                   <h5>Level 4</h5>
@@ -109,7 +109,7 @@
         <div class="m-4">
           <div class="user d-flex">
             <div class="">
-              <div class="d-flex mx-5 p-4">
+              <div class="d-flex mx-lg-5 p-4">
                 <img src="../assets/medal.svg" alt="" />
                 <div class="ml-5 pl-5 pt-2">
                   <h5>Top Contributor</h5>
@@ -120,7 +120,7 @@
         </div>
       </div>
 
-      <div class="col-3">
+      <div class="col-lg-3">
         <div class="d-flex m-3">
           <div class="m-3">
             <button type="button">Post</button>
@@ -129,7 +129,7 @@
             <button type="button">Logout</button>
           </div>
         </div>
-        <div>
+        <div class="ml-3">
           <div class="text-left">
             <h6>Achievements</h6>
             <span id="small">All Time</span>

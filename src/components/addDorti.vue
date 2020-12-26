@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-3 py-3">
+      <div class="col-lg-3 py-3">
         <div class="my-3">
           <img src="../assets/user.png" alt="" />
           <h6>Paul Okechukwu</h6>
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div id="bar" class="col-5 mx-5">
+      <div id="bar" class="col-lg-5 mx-lg-5">
         <div class="m-5 text-left">
           <h5>Post a dorti</h5>
           <div>
@@ -93,7 +93,7 @@
         </div>
       </div>
       
-      <div class="col-3">
+      <div class="col-lg-3">
         <div class="d-flex m-3">
           <div class="m-3">
             <button type="button">Post</button>
