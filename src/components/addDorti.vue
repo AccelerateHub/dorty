@@ -66,31 +66,31 @@
               <b-card-text> Upload a picture</b-card-text>
             </b-card>
           </div>
-
-          <hr>
-          <h5>Select Location</h5>
-          <hr>
+          <div class="form-group mb-3 mt-3">
+            <input
+              type=""
+              class="form-control"
+              id="email"
+              placeholder="Select Location"
+            />
+          </div>
 
           <GmapMap
-              :center="{lat:10, lng:10}"
-              :zoom="8"
-              map-type-id="hybrid"
-              style="width:420px; height:360px;"
+            :center="{ lat: 10, lng: 10 }"
+            :zoom="8"
+            map-type-id="hybrid"
+            style="width: 420px; height: 360px"
           >
           </GmapMap>
 
           <div class="py-2">
-            <div class="user d-flex p-3">
-              <div class="ml-3 mt-1">
-                <h5>Comment</h5>
-              </div>
+            <div class="form-group mb-3 mt-3">
+              <input type="" class="form-control" id="email" placeholder="Comment" />
             </div>
           </div>
           <div class="py-2">
-            <div class="user d-flex p-3">
-              <div class="ml-3 mt-1">
-                <h5>Type of dorti</h5>
-              </div>
+            <div class="form-group mb-3 mt-3">
+              <input type="" class="form-control" id="email" placeholder="Add a Dorti" />
             </div>
           </div>
           <div class="text-right mt-3">
@@ -98,11 +98,9 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col-lg-3">
-        <div class="d-flex m-3">
-          
-        </div>
+        <div class="d-flex m-3"></div>
         <div id="bar" class="px-4 py-1">
           <div class="text-left">
             <p>Top Earners for this week</p>
@@ -252,5 +250,9 @@ button {
   border-radius: 50px;
   color: white;
   width: 100px;
+}
+input {
+  width: 100%;
+  padding: 10px;
 }
 </style>

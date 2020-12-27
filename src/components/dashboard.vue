@@ -5,7 +5,7 @@
         <div>
           <div class="my-3">
             <img src="../assets/user.png" alt="" />
-            <h6>Paul Okechukwu</h6>
+            <h6 style="font-weight: 700;">Paul Okechukwu</h6>
             <span>Level 5 </span>
             <b-icon id="check" class="h2" icon="check-circle-fill"></b-icon>
           </div>
@@ -74,9 +74,6 @@
                   <p>No 15 Aggrey Road, Port Harcourt.</p>
                   <p id="small">12:23pm, 28th December 2020</p>
                 </div>
-                <button id="btn" type="button">
-                  <b-icon class="h3" icon="eye-fill"></b-icon>
-                </button>
               </div>
             </div>
           </div>
@@ -91,9 +88,6 @@
                   <p>No 15 Aggrey Road, Port Harcourt.</p>
                   <p id="small">12:23pm, 28th December 2020</p>
                 </div>
-                <button id="btn" type="button">
-                  <b-icon class="h3" icon="eye-fill"></b-icon>
-                </button>
               </div>
             </div>
           </div>
@@ -108,9 +102,6 @@
                   <p>No 15 Aggrey Road, Port Harcourt.</p>
                   <p id="small">12:23pm, 28th December 2020</p>
                 </div>
-                <button id="btn" type="button">
-                  <b-icon class="h3" icon="eye-fill"></b-icon>
-                </button>
               </div>
             </div>
           </div>
@@ -125,9 +116,6 @@
                   <p>No 15 Aggrey Road, Port Harcourt.</p>
                   <p id="small">12:23pm, 28th December 2020</p>
                 </div>
-                <button id="btn" type="button">
-                  <b-icon class="h3" icon="eye-fill"></b-icon>
-                </button>
               </div>
             </div>
           </div>
@@ -137,14 +125,11 @@
                 <img src="../assets/dorti.png" alt="" />
                 <div class="p-3 text-left ml-3">
                   <div class="mb-3">
-                    <h5>Paul Okechukwu</h5>
+                    <h5 >Paul Okechukwu</h5>
                   </div>
                   <p>No 15 Aggrey Road, Port Harcourt.</p>
                   <p id="small">12:23pm, 28th December 2020</p>
                 </div>
-                <button id="btn" type="button">
-                  <b-icon class="h3" icon="eye-fill"></b-icon>
-                </button>
               </div>
             </div>
           </div>
@@ -248,7 +233,7 @@ export default {
   },
 };
 </script>
-<style scoped>
+<style>
 #bar {
   box-shadow: 0 4px 8px 0 rgba(131, 130, 130, 0.2), 0 6px 20px 0 rgba(94, 93, 93, 0.19);
   border-radius: 10px;
@@ -276,15 +261,14 @@ export default {
   color: rgba(11, 17, 197, 1);
 }
 button {
-  background-color: rgba(11, 17, 197, 1);
   padding: 15px;
   border: none;
   border-radius: 50px;
   color: white;
   width: 100px;
+  background-color: rgba(11, 17, 197, 1);
 }
 #btn {
-  background-color: rgba(11, 17, 197, 1);
   width: 80px;
   height: 60px;
   margin-top: 30px;
@@ -296,7 +280,9 @@ a {
   text-decoration: none;
   color: #2c3e50;
 }
-
+h5{
+  font-size: 18px;
+}
 a:hover {
   text-decoration: none;
   color: #2c3e50;
