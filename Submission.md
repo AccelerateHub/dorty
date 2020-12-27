@@ -32,5 +32,6 @@
 - **Pitch Deck:**
 - **Video Demo:**
 - **Demo URL:** https://accelerate-dorty.herokuapp.com/
+- **Original GitHub repository:** https://github.com/AccelerateHub/dorty
 
 ## Project Launch Page
