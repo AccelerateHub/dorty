@@ -96,9 +96,10 @@
         </div>
       </div>
       <div class="col-lg-3">
-        <div class="d-flex m-3">
-          <div class="m-3">
-            <button type="button">Post</button>
+        <div class="d-flex m-3"><div class="m-3">
+            <router-link to="/addDorti">
+              <button type="button">Post</button>
+            </router-link>
           </div>
           <div class="m-3">
             <button type="button">Logout</button>

@@ -101,12 +101,7 @@
       
       <div class="col-lg-3">
         <div class="d-flex m-3">
-          <div class="m-3">
-            <button type="button">Post</button>
-          </div>
-          <div class="m-3">
-            <button type="button">Logout</button>
-          </div>
+          
         </div>
         <div id="bar" class="px-4 py-1">
           <div class="text-left">

@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-3 py-3">
+      <div class="col-lg-3 py-3">
         <div class="my-3">
           <img src="../assets/user.png" alt="" />
           <h6>Paul Okechukwu</h6>
@@ -10,7 +10,7 @@
         </div>
         <router-link to="/dashboard">
           <div class="px-4 py-2">
-            <div class="dashboard d-flex text-white p-3">
+            <div class="user d-flex p-3">
               <b-icon class="h2" icon="grid1x2"></b-icon>
               <div class="ml-3 mt-1">
                 <h5>Dashboard</h5>
@@ -49,7 +49,7 @@
           </div>
         </router-link>
         <div class="px-4 py-2">
-          <div class="user d-flex p-3">
+          <div class="dashboard text-white d-flex p-3">
             <b-icon class="h2" icon="gear"></b-icon>
             <div class="ml-3 mt-1">
               <h5>Settings</h5>
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div id="bar" class="col-5 mx-5">
+      <div id="bar" class="col-lg-5 mx-lg-5">
         <div class="m-5 text-left">
           <h5>Profile Picture</h5>
           <div>
@@ -88,8 +88,6 @@
         </div>
       </div>
       
-        </div>
-      </div>
     </div>
   </div>
 </template>

@@ -60,7 +60,7 @@
       <div class="col-lg-6">
         <div class="user my-3">
           <div class="d-flex pt-4">
-            <div class="pl-5 ml-5">
+            <div class="pl-lg-5 ml-5">
               <img src="../assets/Dorti icon.svg" alt="" />
             </div>
             <div class="text-left ml-5 pl-2">
@@ -75,7 +75,7 @@
 
         <div class="user my-3">
           <div class="d-flex pt-4">
-            <div class="pl-5 ml-5">
+            <div class="pl-lg-5 ml-5">
               <b-icon color="rgba(11, 17, 197, 1)" class="h3" icon="wallet"></b-icon>
             </div>
             <div class="text-left ml-5 pl-2">
@@ -89,7 +89,7 @@
 
         <div class="user my-3">
           <div class="d-flex pt-4">
-            <div class="pl-5 ml-5">
+            <div class="pl-lg-5 ml-5">
               <b-icon
                 color="rgba(11, 17, 197, 1)"
                 class="h3"
@@ -107,7 +107,7 @@
 
         <div class="user my-3">
           <div class="d-flex pt-4">
-            <div class="pl-5 ml-5">
+            <div class="pl-lg-5 ml-5">
               <img src="../assets/Dorti icon.svg" alt="" />
             </div>
             <div class="text-left ml-5 pl-2">
@@ -121,7 +121,7 @@
 
         <div class="user my-3">
           <div class="d-flex pt-4">
-            <div class="pl-5 ml-5">
+            <div class="pl-lg-5 ml-5">
               <img src="../assets/Dorti icon.svg" alt="" />
             </div>
             <div class="text-left ml-5 pl-2">
@@ -136,7 +136,9 @@
       <div class="col-lg-3">
         <div class="d-flex m-3">
           <div class="m-3">
-            <button type="button">Post</button>
+            <router-link to="/addDorti">
+              <button type="button">Post</button>
+            </router-link>
           </div>
           <div class="m-3">
             <button type="button">Logout</button>
