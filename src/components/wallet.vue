@@ -76,13 +76,22 @@
           </b-card-text>
         </b-card>
         <div class="text-left d-flex">
-          <div class="mr-5">
-            <h6>Transfer To Bank</h6>
-            <span id="small">Paypal</span>
+          <div class="py-2 mr-3">
+            <div class="user d-flex px-5 py-3" style="background: #0b11c5; color: white;">
+              <b-icon class="h2" icon="building"></b-icon>
+              <div class="ml-3 mt-1">
+                <h6>Transfer To Bank</h6>
+              </div>
+            </div>
           </div>
-          <div class="ml-5">
-            <h6>Transfer To a Dorti User</h6>
-            <span id="small">Paypal</span>
+
+          <div class="py-2">
+            <div class="user d-flex px-5 py-3" style="background: #0b11c5; color: white;">
+              <b-icon class="h2" icon="person"></b-icon>
+              <div class="ml-3 mt-1">
+                <h6>Transfer To A Dorti User</h6>
+              </div>
+            </div>
           </div>
         </div>
       </div>
