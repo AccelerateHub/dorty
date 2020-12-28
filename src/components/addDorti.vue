@@ -48,14 +48,18 @@
             </div>
           </div>
         </router-link>
+        
         <div class="px-4 py-2">
-          <div class="user d-flex p-3">
-            <b-icon class="h2" icon="gear"></b-icon>
-            <div class="ml-3 mt-1">
-              <h5>Settings</h5>
+            <router-link to="/settings">
+            <div class="user d-flex p-3">
+              <b-icon class="h2" icon="gear"></b-icon>
+              <div class="ml-3 mt-1">
+                <h5>Settings</h5>
+              </div>
             </div>
+            </router-link>
           </div>
-        </div>
+          
       </div>
       <div id="bar" class="col-lg-5 mx-lg-5">
         <div class="m-5 text-left">
